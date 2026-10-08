@@ -1,0 +1,33 @@
+{
+  "Iron mine": {
+    "Cost": 150,
+    "Upkeep" : {},
+    "Energy" : 10,
+    "Produce" : {"Iron ore" : 15}
+
+  },
+
+  "Coal mine": {
+    "Cost": 250,
+    "Upkeep" : {},
+    "Energy" : 10,
+    "Produce" : {"Coal" : 15}
+
+  },
+
+   "Steel plant": {
+    "Cost": 500,
+    "Upkeep" : {"Iron ore" : 15, "Coal" : 15},
+    "Energy" : 25,
+    "Produce" : {"Steel" : 25}
+
+  }, 
+
+   "Coal plant": {
+    "Cost": 200,
+    "Upkeep" : {"Coal": 25},
+    "Energy" : 0,
+    "Produce" : {"Energy" : 50}
+
+  }
+}
